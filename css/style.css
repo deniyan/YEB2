@@ -1,0 +1,177 @@
+*{
+	margin: 0;
+	padding: 0;
+    font-size: 20px;
+	color: #808080;
+}
+body {
+    background-color: #F0E4E4;
+}
+/* SECTION 1 -----------------------------------   */
+.d-flex {
+	background-color: #F93700;
+	position: relative;
+	display: none;
+    z-index: 5;
+}
+.nav-item{
+	float: right;
+}
+i{
+	padding-right: 4px;
+}
+.nav-link{
+	color: rgb(255, 255, 255)!important;
+	margin: 0px auto 0px auto;
+	padding: 0px;
+}
+
+
+.search-container{
+	border: none;
+	margin: 0px auto 0px auto;
+}
+.inputSearch{
+	margin-top: 5px;
+	padding: 8.5px 40px 8.5px 14px;
+	border: none;
+	font-size: 14px;
+}
+.button-search{
+	border: none;
+	float: right;
+	padding: 4px 5px 4px 5px;
+	margin-top: 5px;
+	margin-right: 16px;
+	background: #ddd;
+	cursor: pointer;
+}
+.isearch{
+	color: white;
+	padding: 0px 16px 0px 16px;
+}
+.nav-container{
+	max-width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+/* SECTRION 2 */
+.row{
+	margin: auto;
+	width: 100%;
+	padding-right: 0px;
+}
+.section2{
+	width: 86%;
+	margin: 40px auto;
+}
+.sect2-div{
+	margin: 0px!important;
+}
+.col{
+	text-align: center;
+}
+.col0{
+	display: table-cell;
+}
+.rooms-img{
+	width: 290px;
+	height: 290px;
+	transition: transform .6s;
+}
+.rooms-img:hover{
+	cursor: pointer;
+	transform: scale(1.089); 
+}
+.rooms-text{
+	font-size: 20px;
+	margin-top: 5px;
+}
+
+
+
+
+/* SECTRION 3 */
+.col3{
+	text-align: left;
+}
+.col-bigimg{
+	padding: 0px!important;
+}
+.text1{
+	font-size: 40px;
+	color: #F93700;
+}
+#orange-btn{
+	background-color: #F93700;
+	border-color: #F93700;
+	color: white;
+	margin: 0px;
+}
+#orange-btn:hover{
+	background-color: rgb(179, 39, 0);
+	border-color: rgb(179, 39, 0);
+	color: white;
+	cursor: pointer;
+}
+
+.bigimg{
+	width: 800px;
+	float: right;
+}
+
+
+
+/* SECTRION 4 */
+.section4{
+	margin-top: 30px;
+	padding-left: 58px;
+	padding-right: 58px;
+}
+
+.container-sect4{
+}
+.col1{
+	display: table-cell;
+	width: 150px!important;
+	text-align: center!important;
+	padding: 0px;
+	margin: auto;
+}
+.advertise{
+	margin-top: 30px;
+	margin-bottom: 10px;
+	width: 100px; 
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 100%;
+	padding: 10px
+}
+.col1-p{
+	font-size: 16px;
+}
+
+
+
+/* SECTION 5 */
+.nav-footer{
+	color: #808080!important;
+	padding: 14px 10px!important;
+	font-size: 14px;
+}
+
+.btn-call{
+	color: black;
+	border: none;
+	background-color: #CAC3C3;
+	border-radius: 5px;
+	width: 120px;
+	font-size: 16px;
+	padding: 8px 10px;
+	margin: 12px;
+}
+.open-time{
+	margin-top: 14px;
+	font-size: 12px;
+}

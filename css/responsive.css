@@ -1,0 +1,47 @@
+@media (max-width: 1500px){
+	.row{
+		width: 100%;
+		margin: 0px 40px;
+	}
+	.section2{
+		width: 100%;
+		margin: 41px 16px;
+	}
+}
+
+
+@media (max-width: 1300px){
+	.row-images{
+		width: 90%;
+		margin-left: 16.2%;
+		padding-left: 16.2%;
+
+	}
+}
+
+@media (max-width: 1170px){
+	.bigimg{
+		float: none;
+		margin-left: 0px; 
+	}
+	.col3{
+		text-align: center;
+	}
+	.inputSearch{
+		padding: 8.5px 14px;
+	}
+	.nav-link{
+		padding: 10px!important;
+	}
+	.inputSearch{
+		padding: 8.5px 14px;
+	}
+	.nav-footer{
+		padding: 10px 10px 10px 0px!important;
+	}
+	.row-images{
+		width: 90%;
+		margin-left: 10%;
+		padding-left: 10%;
+	}
+}
