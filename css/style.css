@@ -7,24 +7,40 @@
 body {
     background-color: #F0E4E4;
 }
+
 /* SECTION 1 -----------------------------------   */
+#header{
+	padding-top: 0.8rem!important; 
+	padding-bottom: 0.8rem!important; 
+	box-shadow: rgb(0 0 0 / 90%) 0px 0px 20px 0px;
+}
 .d-flex {
 	background-color: #F93700;
-	position: relative;
-	display: none;
-    z-index: 5;
 }
 .nav-item{
-	float: right;
+	transition: 0.5s;
+}
+.menu:hover{
+	background-color: rgb(204, 44, 0);
+	border-radius: 4px;
+	color: white;
+	cursor: pointer;
 }
 i{
 	padding-right: 4px;
+	transition: transform .6s;
 }
+i:hover{
+	cursor: pointer;
+	transform: scale(1.200); 
+}
+
 .nav-link{
-	color: rgb(255, 255, 255)!important;
 	margin: 0px auto 0px auto;
 	padding: 0px;
+	color: rgb(255, 255, 255)!important;
 }
+
 
 
 .search-container{
@@ -36,6 +52,7 @@ i{
 	padding: 8.5px 40px 8.5px 14px;
 	border: none;
 	font-size: 14px;
+	outline: 0px solid transparent;
 }
 .button-search{
 	border: none;
@@ -50,35 +67,35 @@ i{
 	color: white;
 	padding: 0px 16px 0px 16px;
 }
-.nav-container{
-	max-width: 100%;
-	padding: 0px;
-	margin: 0px;
-}
-
 
 /* SECTRION 2 */
-.row{
-	margin: auto;
-	width: 100%;
-	padding-right: 0px;
-}
 .section2{
-	width: 86%;
+	max-width: 98.5%;
 	margin: 40px auto;
 }
-.sect2-div{
-	margin: 0px!important;
+.row{
+	width: 100%;
+}
+.col-img-left{
+	float: left;
+}
+.col-img-right{
+	float: right;
+}
+.left-img2{
+	padding-left: 0px!important;
+}
+.right-img2{
+	padding-right: 0px!important;
 }
 .col{
 	text-align: center;
 }
-.col0{
-	display: table-cell;
-}
 .rooms-img{
-	width: 290px;
-	height: 290px;
+	border-radius: 4px;
+	width: 260px;
+	height: 260px;
+	box-shadow: 0px 0px 13px 4px #888888;
 	transition: transform .6s;
 }
 .rooms-img:hover{
@@ -87,14 +104,13 @@ i{
 }
 .rooms-text{
 	font-size: 20px;
-	margin-top: 5px;
+	margin-top: 7px;
 }
-
-
 
 
 /* SECTRION 3 */
 .col3{
+	margin-bottom: 30px;
 	text-align: left;
 }
 .col-bigimg{
@@ -106,39 +122,30 @@ i{
 }
 #orange-btn{
 	background-color: #F93700;
-	border-color: #F93700;
+	border: none;
+	padding: 11px 15px;
 	color: white;
-	margin: 0px;
 }
 #orange-btn:hover{
 	background-color: rgb(179, 39, 0);
-	border-color: rgb(179, 39, 0);
-	color: white;
 	cursor: pointer;
 }
 
 .bigimg{
 	width: 800px;
 	float: right;
+	transition: transform .6s;
+	border-radius: 4px;
+	box-shadow: 0px 0px 13px 4px #888888;
 }
-
-
+.bigimg:hover{
+	cursor: pointer;
+	transform: scale(1.089); 
+}
 
 /* SECTRION 4 */
 .section4{
 	margin-top: 30px;
-	padding-left: 58px;
-	padding-right: 58px;
-}
-
-.container-sect4{
-}
-.col1{
-	display: table-cell;
-	width: 150px!important;
-	text-align: center!important;
-	padding: 0px;
-	margin: auto;
 }
 .advertise{
 	margin-top: 30px;
@@ -146,13 +153,16 @@ i{
 	width: 100px; 
 	background-color: rgba(255, 255, 255, 1);
 	border-radius: 100%;
-	padding: 10px
+	transition: transform .6s;
+	padding: 10px;
+}
+.advertise:hover{
+	cursor: pointer;
+	transform: scale(1.095); 
 }
 .col1-p{
 	font-size: 16px;
 }
-
-
 
 /* SECTION 5 */
 .nav-footer{
@@ -170,6 +180,13 @@ i{
 	font-size: 16px;
 	padding: 8px 10px;
 	margin: 12px;
+	transition: 0.6s;
+}
+.btn-call:hover{
+	background-color: rgb(159, 147, 147);
+	border-color: rgb(159, 147, 147);
+	color: white;
+	cursor: pointer;
 }
 .open-time{
 	margin-top: 14px;
